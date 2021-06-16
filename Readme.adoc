@@ -13,4 +13,4 @@ image::doc/access.png[]
 
 ==== Проверка работы
 
-Зайти на http://localhost:8080/ , запустить процесс "Обработка запросов на предоставление доступа". В базе будет таблица с состоянием сущности xref:src/main/java/ru/perm/v/camunda/demo/access/domain/AccessRequest.java
+Зайти на http://localhost:8080/ , запустить процесс "Обработка запросов на предоставление доступа". В базе будет таблица с состоянием сущности xref:src/main/java/ru/perm/v/camunda/demo/access/domain/AccessRequest.java[AccessRequest.java]
