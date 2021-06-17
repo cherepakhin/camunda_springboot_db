@@ -15,6 +15,21 @@ image::doc/access.png[]
 
 Зайти на http://localhost:8080/ , запустить процесс "Обработка запросов на предоставление доступа". В базе будет таблица с состоянием сущности xref:src/main/java/ru/perm/v/camunda/demo/access/domain/AccessRequest.java[AccessRequest.java]
 
+Запуск бизнес-процесса через RestController
+
+[source,bash]
+----
+http :8080/api/start/accessRequestHandling
+
+HTTP/1.1 200
+Connection: keep-alive
+Content-Length: 36
+Content-Type: text/plain;charset=UTF-8
+Date: Thu, 17 Jun 2021 09:08:38 GMT
+Keep-Alive: timeout=60
+
+9a6355cd-cf4b-11eb-a181-5254008158c5
+----
 ==== Ссылки
 
 - https://docs.camunda.org/manual/7.10/user-guide/spring-boot-integration/
